@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
   "name": "@cuiqg/typescript-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./tsconfig.json",
   "type": "module",
   "repository": "github:cuiqg/typescript-config",
