@@ -1,0 +1,11 @@
+# Node.js
+node_modules/
+
+# Editor
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Misc
+.DS_Store
+Thumbs.db

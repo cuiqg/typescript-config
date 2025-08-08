@@ -1,0 +1,6 @@
+.github/
+.vscode/
+.editconfig
+.gitignore
+pnpm-lock.yaml
+pnpm-workspace.yaml
