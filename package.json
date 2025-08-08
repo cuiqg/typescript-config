@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/package.json",
   "name": "@cuiqg/typescript-config",
   "description": "TypeScript config for @cuiqg",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "./tsconfig.json",
   "type": "module",
   "repository": "github:cuiqg/typescript-config",
@@ -19,7 +19,7 @@
     "test:types": "tsc --noEmit --pretty"
   },
   "devDependencies": {
-    "@cuiqg/prettier-config": "^1.1.13",
+    "@cuiqg/prettier-config": "^1.2.0",
     "@types/node": "^24.2.0",
     "bumpp": "^10.2.2",
     "prettier": "^3.6.2",

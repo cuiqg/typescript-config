@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@cuiqg/prettier-config':
-        specifier: ^1.1.13
-        version: 1.1.13
+        specifier: ^1.2.0
+        version: 1.2.0
       '@types/node':
         specifier: ^24.2.0
         version: 24.2.0
@@ -26,8 +26,8 @@ importers:
 
 packages:
 
-  '@cuiqg/prettier-config@1.1.13':
-    resolution: {integrity: sha512-mY58IHZydIMN0o1cRJKbrs4zITPMLt9Lps4ybKgDB5Dl/ap8ub7oxe0gZvt9lYETGBICPcAXumH5wWYU7r9Vxg==}
+  '@cuiqg/prettier-config@1.2.0':
+    resolution: {integrity: sha512-oq8YbmtLsrdKGPHUHOW7otA6f1QOrIm+g+Gx4VJVAseI8S83AW0gvVSI+P9yh4VRxjhOF0Fr1f6GtppuRZ3ORg==}
 
   '@emnapi/core@1.4.5':
     resolution: {integrity: sha512-XsLw1dEOpkSX/WucdqUhPWP7hDxSvZiY+fsUC14h+FtQ2Ifni4znbBt8punRX+Uj2JG/uDb8nEHVKvrVlvdZ5Q==}
@@ -296,7 +296,7 @@ packages:
 
 snapshots:
 
-  '@cuiqg/prettier-config@1.1.13':
+  '@cuiqg/prettier-config@1.2.0':
     dependencies:
       '@prettier/plugin-oxc': 0.0.4
 
