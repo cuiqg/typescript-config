@@ -6,6 +6,7 @@
   "main": "./tsconfig.json",
   "type": "module",
   "repository": "github:cuiqg/typescript-config",
+  "license": "WTFPL",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
