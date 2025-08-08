@@ -1,10 +1,14 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
   "name": "@cuiqg/typescript-config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "./tsconfig.json",
   "type": "module",
   "repository": "github:cuiqg/typescript-config",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "release": "pnpm release:check && bumpp && pnpm publish",
     "release:check": "pnpm test",
@@ -20,16 +24,12 @@
     "prettier": "^3.6.2",
     "typescript": "^5.9.2"
   },
-  "engines": {
-    "node": ">= 18.0.0"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
-  "packageManager": "pnpm@10.14.0",
   "peerDependencies": {
     "typescript": "^5.8.0"
   },
+  "engines": {
+    "node": ">= 18.0.0"
+  },
+  "packageManager": "pnpm@10.14.0",
   "prettier": "@cuiqg/prettier-config"
 }
